@@ -1,0 +1,6 @@
+@KMNVetetable.WebAPI_HostAddress = http://localhost:5219
+
+GET {{KMNVetetable.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
