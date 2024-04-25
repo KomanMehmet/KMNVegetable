@@ -21,8 +21,4 @@
     <ProjectReference Include="..\..\Infrastructure\KMNVetetable.Persistence\KMNVetetable.Persistence.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

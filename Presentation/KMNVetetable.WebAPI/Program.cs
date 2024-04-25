@@ -1,4 +1,16 @@
+using KMNVegetable.Application.Services;
+using KMNVetetable.Persistence.Context;
+using KMNVetetable.Persistence.Repositories;
+using static KMNVegetable.Application.Interfaces.IRepository;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHttpClient();
+
+builder.Services.AddScoped<KmnContext>();
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+builder.Services.AddApplicationService(builder.Configuration);
 
 // Add services to the container.
 

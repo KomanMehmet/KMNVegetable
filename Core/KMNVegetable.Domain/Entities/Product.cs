@@ -18,10 +18,6 @@
 
         public int CategoryID { get; set; }
 
-        public Billing Billing { get; set; }
-
-        public int BillingID { get; set; }
-
         public List<Discount> Discounts { get; set; }
 
         public List<ProductDetail> ProductDetails { get; set; }

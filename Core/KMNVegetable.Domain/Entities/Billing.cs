@@ -21,7 +21,5 @@
         public string Email { get; set; }
 
         public string? Annotation { get; set; }
-
-        public List<Product> Products { get; set; }
     }
 }
