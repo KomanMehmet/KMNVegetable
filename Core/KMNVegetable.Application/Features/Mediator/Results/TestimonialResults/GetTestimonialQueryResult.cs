@@ -1,6 +1,6 @@
-﻿namespace KMNVegetable.Domain.Entities
+﻿namespace KMNVegetable.Application.Features.Mediator.Results.TestimonialResults
 {
-    public class Testimonial
+    public class GetTestimonialQueryResult
     {
         public int TestimonialID { get; set; }
 
