@@ -8,11 +8,11 @@ namespace KMNVetetable.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class NavBarContactContactsController : ControllerBase
+    public class NavBarContactsController : ControllerBase
     {
         private readonly IMediator _mediator;
 
-        public NavBarContactContactsController(IMediator mediator)
+        public NavBarContactsController(IMediator mediator)
         {
             _mediator = mediator;
         }
